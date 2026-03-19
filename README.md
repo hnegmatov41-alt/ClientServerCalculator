@@ -19,21 +19,12 @@
 
 ## Структура проекта
 ProjectCalc/
-│
-├── 📂 server/
-│   ├── 📄 server.cpp          # Серверная часть (обработка запросов, PostgreSQL)
-│   └── 📄 server.exe          # Исполняемый файл сервера
-│
-├── 📂 client/
-│   ├── 📄 client.cpp          # Клиентская часть (интерфейс, отправка запросов)
-│   └── 📄 client.exe          # Исполняемый файл клиента
-│
-├── 📂 docs/
-│   ├── 📄 class_diagram.md    # Диаграмма классов
-│   └── 📄 use_case_diagram.md # Диаграмма вариантов использования
-│
-├── 📄 README.md                # Описание проекта
-└── 📄 .gitignore               # Игнорируемые файлы Git
+├── server/
+│   └── server.cpp
+├── client/
+│   └── client.cpp
+├── docs/
+└── README.md
 ## Инструкция по запуску
 
 1. Создай базу данных PostgreSQL с именем calculator_db
